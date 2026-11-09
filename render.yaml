@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: escaneo-gs1
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/estado
+    envVars:
+      # Los valores se ingresan en el panel de Render (no se suben a GitHub)
+      - key: DB_URL
+        sync: false
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: OFF_ENABLED
+        value: "true"

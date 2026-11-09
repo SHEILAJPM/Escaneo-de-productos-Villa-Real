@@ -1,0 +1,12 @@
+{
+  "java.jdt.ls.java.home": "C:\\Users\\sheil\\scoop\\apps\\openjdk21\\current",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "C:\\Users\\sheil\\scoop\\apps\\openjdk21\\current",
+      "default": true
+    }
+  ],
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.import.maven.enabled": true
+}
